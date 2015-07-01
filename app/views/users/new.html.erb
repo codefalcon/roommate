@@ -1,0 +1,36 @@
+<% provide(:title, 'Sign up') %>
+<h1>Sign up !</h1>
+<div class="row">
+  <div class="span6 offset3">
+    <%= form_for(@user) do |f| %>
+
+      <%= render 'shared/error_messages' %>
+      <%= f.label :name %>
+      <%= f.text_field :name %>
+
+      <%= f.label :email %>
+      <%= f.text_field :email%>
+
+      <%= f.label :age %>
+      <%= f.text_field :age %>
+
+      <%= f.label :phone %>
+      <%= f.text_field :phone %>
+
+      <%= f.label :company %>
+      <%= f.text_field :company %>
+
+      <%= f.label :college %>
+      <%= f.text_field :college %>
+
+      <%= f.label :password %>
+      <%= f.text_field :password %>
+
+      <%= f.label :password_confirmation, 'Confirmation' %>
+      <%= f.text_field :password_confirmation %>
+
+      <%= f.submit "Create my account", class: "btn btn-primary btn-large" %>
+    <% end %>
+  </div>
+</div>
+
