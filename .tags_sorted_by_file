@@ -1,0 +1,38 @@
+ApplicationController	/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+handle_unverified_request	/app/controllers/application_controller.rb	/^  def handle_unverified_request$/;"	f	class:ApplicationController
+SessionsController	/app/controllers/sessions_controller.rb	/^class SessionsController < ApplicationController$/;"	c
+create	/app/controllers/sessions_controller.rb	/^  def create$/;"	f	class:SessionsController
+destroy	/app/controllers/sessions_controller.rb	/^  def destroy$/;"	f	class:SessionsController
+new	/app/controllers/sessions_controller.rb	/^  def new$/;"	f	class:SessionsController
+StaticPagesController	/app/controllers/static_pages_controller.rb	/^class StaticPagesController < ApplicationController$/;"	c
+about	/app/controllers/static_pages_controller.rb	/^  def about$/;"	f	class:StaticPagesController
+contact	/app/controllers/static_pages_controller.rb	/^  def contact$/;"	f	class:StaticPagesController
+help	/app/controllers/static_pages_controller.rb	/^  def help$/;"	f	class:StaticPagesController
+home	/app/controllers/static_pages_controller.rb	/^  def home$/;"	f	class:StaticPagesController
+UsersController	/app/controllers/users_controller.rb	/^class UsersController < ApplicationController$/;"	c
+create	/app/controllers/users_controller.rb	/^  def create$/;"	f	class:UsersController
+new	/app/controllers/users_controller.rb	/^  def new$/;"	f	class:UsersController
+show	/app/controllers/users_controller.rb	/^  def show$/;"	f	class:UsersController
+ApplicationHelper	/app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+SessionsHelper	/app/helpers/sessions_helper.rb	/^module SessionsHelper$/;"	m
+StaticPagesHelper	/app/helpers/static_pages_helper.rb	/^module StaticPagesHelper$/;"	m
+UsersHelper	/app/helpers/users_helper.rb	/^module UsersHelper$/;"	m
+show_icon	/app/helpers/users_helper.rb	/^  def show_icon(user)$/;"	f	class:UsersHelper
+User	/app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
+Application	/config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Roommate
+Roommate	/config/application.rb	/^module Roommate$/;"	m
+CreateUsers	/db/migrate/20150629101019_create_users.rb	/^class CreateUsers < ActiveRecord::Migration$/;"	c
+change	/db/migrate/20150629101019_create_users.rb	/^  def change$/;"	f	class:CreateUsers
+AddIndexToUsersEmail	/db/migrate/20150629161722_add_index_to_users_email.rb	/^class AddIndexToUsersEmail < ActiveRecord::Migration$/;"	c
+change	/db/migrate/20150629161722_add_index_to_users_email.rb	/^  def change$/;"	f	class:AddIndexToUsersEmail
+AddPasswordDigestToUsers	/db/migrate/20150629163324_add_password_digest_to_users.rb	/^class AddPasswordDigestToUsers < ActiveRecord::Migration$/;"	c
+change	/db/migrate/20150629163324_add_password_digest_to_users.rb	/^  def change$/;"	f	class:AddPasswordDigestToUsers
+BrowsingTest	/test/performance/browsing_test.rb	/^class BrowsingTest < ActionDispatch::PerformanceTest$/;"	c
+test_homepage	/test/performance/browsing_test.rb	/^  def test_homepage$/;"	f	class:BrowsingTest
+ActiveSupport	/test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/

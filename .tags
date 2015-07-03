@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ActiveSupport	./test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+AddIndexToUsersEmail	./db/migrate/20150629161722_add_index_to_users_email.rb	/^class AddIndexToUsersEmail < ActiveRecord::Migration$/;"	c
+AddPasswordDigestToUsers	./db/migrate/20150629163324_add_password_digest_to_users.rb	/^class AddPasswordDigestToUsers < ActiveRecord::Migration$/;"	c
+Application	./config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Roommate
+ApplicationController	./app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	./app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+BrowsingTest	./test/performance/browsing_test.rb	/^class BrowsingTest < ActionDispatch::PerformanceTest$/;"	c
+CreateUsers	./db/migrate/20150629101019_create_users.rb	/^class CreateUsers < ActiveRecord::Migration$/;"	c
+Roommate	./config/application.rb	/^module Roommate$/;"	m
+SessionsController	./app/controllers/sessions_controller.rb	/^class SessionsController < ApplicationController$/;"	c
+SessionsHelper	./app/helpers/sessions_helper.rb	/^module SessionsHelper$/;"	m
+StaticPagesController	./app/controllers/static_pages_controller.rb	/^class StaticPagesController < ApplicationController$/;"	c
+StaticPagesHelper	./app/helpers/static_pages_helper.rb	/^module StaticPagesHelper$/;"	m
+User	./app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
+UsersController	./app/controllers/users_controller.rb	/^class UsersController < ApplicationController$/;"	c
+UsersHelper	./app/helpers/users_helper.rb	/^module UsersHelper$/;"	m
+about	./app/controllers/static_pages_controller.rb	/^  def about$/;"	f	class:StaticPagesController
+change	./db/migrate/20150629101019_create_users.rb	/^  def change$/;"	f	class:CreateUsers
+change	./db/migrate/20150629161722_add_index_to_users_email.rb	/^  def change$/;"	f	class:AddIndexToUsersEmail
+change	./db/migrate/20150629163324_add_password_digest_to_users.rb	/^  def change$/;"	f	class:AddPasswordDigestToUsers
+contact	./app/controllers/static_pages_controller.rb	/^  def contact$/;"	f	class:StaticPagesController
+create	./app/controllers/sessions_controller.rb	/^  def create$/;"	f	class:SessionsController
+create	./app/controllers/users_controller.rb	/^  def create$/;"	f	class:UsersController
+destroy	./app/controllers/sessions_controller.rb	/^  def destroy$/;"	f	class:SessionsController
+handle_unverified_request	./app/controllers/application_controller.rb	/^  def handle_unverified_request$/;"	f	class:ApplicationController
+help	./app/controllers/static_pages_controller.rb	/^  def help$/;"	f	class:StaticPagesController
+home	./app/controllers/static_pages_controller.rb	/^  def home$/;"	f	class:StaticPagesController
+new	./app/controllers/sessions_controller.rb	/^  def new$/;"	f	class:SessionsController
+new	./app/controllers/users_controller.rb	/^  def new$/;"	f	class:UsersController
+show	./app/controllers/users_controller.rb	/^  def show$/;"	f	class:UsersController
+show_icon	./app/helpers/users_helper.rb	/^  def show_icon(user)$/;"	f	class:UsersHelper
+test_homepage	./test/performance/browsing_test.rb	/^  def test_homepage$/;"	f	class:BrowsingTest

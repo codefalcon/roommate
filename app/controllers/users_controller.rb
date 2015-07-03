@@ -11,6 +11,7 @@ class UsersController < ApplicationController
     @user = User.new(params[:user])
     if @user.save
       #success
+      sign_in @user
       flash[:success] = "Welcome to Roommate.in !"
       redirect_to @user
     else
